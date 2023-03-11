@@ -14,10 +14,12 @@ module.exports = {
 			return;
 		}
 		let katexOptions;
+    console.log('try find katexOptions... at latex.js')
 		try {
 			katexOptions = JSON.parse((await Users.findOne({ where: { user_id: message.author.id } })).katexOptions);
 		}
 		catch {
+      console.log('cant find katexOptions... at latex.js')
 			katexOptions = {};
 		}
 		const files = await markdownToImg(
@@ -25,6 +27,7 @@ module.exports = {
 			katexOptions,
 			message.id,
 		);
+    console.log('markdownToImg() is ended at latex.js')
 		await replyWithReactionCollector(message, { files, reply: { messageReference: message } });
 	},
 };

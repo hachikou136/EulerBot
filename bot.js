@@ -47,8 +47,9 @@ const replyTo = async message => {
 	if (!client.commands.has(commandName)) return;
 
 	const command = client.commands.get(commandName);
-
+  console.log('try executing command: ' + commandName)
 	try {
+    console.log('start executing command...')
 		command.execute(message, args);
 	}
 	catch (error) {

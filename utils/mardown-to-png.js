@@ -4,7 +4,12 @@ const puppeteer = require('puppeteer');
 const { readFileSync } = require('fs');
 const jsdom = require('jsdom');
 
+const child = require('child_process')
+
+
 module.exports = async (text, katexOptions, name) => {
+  console.log('start markdowntopng main flow at markdown-to-png.js\n');
+  
 	md.use(mk, katexOptions);
 
 	const dom = new jsdom.JSDOM(readFileSync('assets/template_katex.html', 'utf8'));
@@ -29,10 +34,45 @@ module.exports = async (text, katexOptions, name) => {
 	result = md.render(result);
 
 	dom.window.document.querySelector('body').innerHTML = result;
-
+  
+  function findChromium() {
+    return new Promise((res, rej) => {
+      child.exec("nix eval nixpkgs.chromium.outPath --raw", (error, stdout, stderr) => {
+        if (error) rej(error.message);
+        else if (stderr) rej(stderr);
+        else res(`${stdout}/bin/chromium`);
+      });
+    });
+  }
+  const chromiumPath = await findChromium();
+  console.log('findChromium is ended at markdown-to-png.js: ' + chromiumPath + '\n');
+  
 	const browser = await puppeteer.launch({
-		args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    // headless: false,
+    dumpio : true,
+    // slowMo: 250, // slow down by 250ms
+    executablePath: chromiumPath,
+    args: [
+      '--disable-gpu',
+      // '--disable-dev-shm-usage',
+      '--disable-setuid-sandbox',
+      // '--no-first-run',
+      '--no-sandbox',
+      // '--no-zygote',
+      '--single-process'
+    ],
 	});
+  
+  console.log('launched puppeteer');
+  console.log(await browser.userAgent());
+  console.log(await browser.version());
+  console.log(await browser.wsEndpoint());
+  console.log(await process.versions);
+
+  // page.on('console', msg => console.log('PAGE LOG:', msg.text()));
+  // await page.evaluate(() => console.log(`url is ${location.href}`));
+
+  console.log('opening new page...\n');
 	const page = await browser.newPage();
 	await page.setViewport({
 		width: 1920,
@@ -40,6 +80,8 @@ module.exports = async (text, katexOptions, name) => {
 		deviceScaleFactor: 3,
 	});
 
+  // await page.goto('google.com');
+  
 	await page.goto(`data:text/html;charset=UTF-8,${encodeURIComponent(dom.serialize())}`, { waitUntil: 'networkidle0' });
 
 	// await page.setContent(dom.serialize());
@@ -49,6 +91,7 @@ module.exports = async (text, katexOptions, name) => {
 		path: fileName,
 	});
 	await browser.close();
+  console.log('closed browser at markdown-to-png\n');
 	return [fileName];
 };
 

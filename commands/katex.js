@@ -7,6 +7,7 @@ module.exports = {
 	description: 'Retrieve katex options from gist',
 
 	async execute(message, args) {
+    console.log('finding katex options...');
 		if (args === 'info') {
 			try {
 				const katexOptions = (await Users.findOne({ where: { user_id: message.author.id } })).katexOptions;
