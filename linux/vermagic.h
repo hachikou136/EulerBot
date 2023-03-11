@@ -7,7 +7,7 @@
 #endif
 
 #include <generated/utsrelease.h>
-#include <asm/vermagic.h>
+#include </home/runner/EulerBot/asm/vermagic.h>
 
 /* Simply sanity version stamp for modules. */
 #ifdef CONFIG_SMP

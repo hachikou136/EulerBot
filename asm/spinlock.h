@@ -87,6 +87,6 @@ static __always_inline int arch_spin_value_unlocked(arch_spinlock_t lock)
 	return !arch_spin_is_locked(&lock);
 }
 
-#include <asm/qrwlock.h>
+#include </home/runner/EulerBot/asm/qrwlock.h>
 
 #endif /* __ASM_GENERIC_SPINLOCK_H */

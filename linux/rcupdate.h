@@ -27,7 +27,7 @@
 #include </home/runner/EulerBot/linux/preempt.h>
 #include </home/runner/EulerBot/linux/bottom_half.h>
 #include </home/runner/EulerBot/linux/lockdep.h>
-#include <asm/processor.h>
+#include </home/runner/EulerBot/asm/processor.h>
 #include </home/runner/EulerBot/linux/cpumask.h>
 #include </home/runner/EulerBot/linux/context_tracking_irq.h>
 

@@ -22,7 +22,7 @@
 #include </home/runner/EulerBot/linux/mm_types.h>
 #include </home/runner/EulerBot/linux/page-flags.h>
 #include </home/runner/EulerBot/linux/local_lock.h>
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 
 /* Free memory management - zoned buddy allocator.  */
 #ifndef CONFIG_ARCH_FORCE_MAX_ORDER
@@ -1558,7 +1558,7 @@ static inline struct pglist_data *NODE_DATA(int nid)
 
 #else /* CONFIG_NUMA */
 
-#include <asm/mmzone.h>
+#include </home/runner/EulerBot/asm/mmzone.h>
 
 #endif /* !CONFIG_NUMA */
 
@@ -1721,7 +1721,7 @@ static inline bool movable_only_nodes(nodemask_t *nodes)
 
 
 #ifdef CONFIG_SPARSEMEM
-#include <asm/sparsemem.h>
+#include </home/runner/EulerBot/asm/sparsemem.h>
 #endif
 
 #ifdef CONFIG_FLATMEM

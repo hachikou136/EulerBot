@@ -61,7 +61,7 @@ static inline void gpio_set_value_cansleep(unsigned gpio, int value)
 }
 
 
-/* A platform's <asm/gpio.h> code may want to inline the I/O calls when
+/* A platform's </home/runner/EulerBot/asm/gpio.h> code may want to inline the I/O calls when
  * the GPIO is constant and refers to some always-present controller,
  * giving direct access to chip registers and tight bitbanging loops.
  */

@@ -3,7 +3,7 @@
 #define _LINUX_MATH_H
 
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/div64.h>
+#include </home/runner/EulerBot/asm/div64.h>
 #include <uapi/linux/kernel.h>
 
 /*

@@ -11,7 +11,7 @@
 #define LINUX_NUBUS_H
 
 #include </home/runner/EulerBot/linux/device.h>
-#include <asm/nubus.h>
+#include </home/runner/EulerBot/asm/nubus.h>
 #include <uapi/linux/nubus.h>
 
 struct proc_dir_entry;

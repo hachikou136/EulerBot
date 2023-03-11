@@ -17,7 +17,7 @@ struct task_struct;
 #ifdef CONFIG_KASAN
 
 #include </home/runner/EulerBot/linux/linkage.h>
-#include <asm/kasan.h>
+#include </home/runner/EulerBot/asm/kasan.h>
 
 #endif
 

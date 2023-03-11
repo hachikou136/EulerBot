@@ -35,14 +35,14 @@
 #include </home/runner/EulerBot/linux/interval_tree.h>
 #include </home/runner/EulerBot/linux/rbtree.h>
 #include </home/runner/EulerBot/linux/xarray.h>
-#include <asm/signal.h>
+#include </home/runner/EulerBot/asm/signal.h>
 
 #include </home/runner/EulerBot/linux/kvm.h>
 #include </home/runner/EulerBot/linux/kvm_para.h>
 
 #include </home/runner/EulerBot/linux/kvm_types.h>
 
-#include <asm/kvm_host.h>
+#include </home/runner/EulerBot/asm/kvm_host.h>
 #include </home/runner/EulerBot/linux/kvm_dirty_ring.h>
 
 #ifndef KVM_MAX_VCPU_IDS

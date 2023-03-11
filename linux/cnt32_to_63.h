@@ -12,7 +12,7 @@
 
 #include </home/runner/EulerBot/linux/compiler.h>
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/byteorder.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
 
 /* this is used only to give gcc a clue about good code generation */
 union cnt32_to_63 {

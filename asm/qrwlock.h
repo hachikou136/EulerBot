@@ -14,8 +14,8 @@
 #define __ASM_GENERIC_QRWLOCK_H
 
 #include <linux/atomic.h>
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include </home/runner/EulerBot/asm/barrier.h>
+#include </home/runner/EulerBot/asm/processor.h>
 
 #include <asm-generic/qrwlock_types.h>
 

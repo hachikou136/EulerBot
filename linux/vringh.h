@@ -19,7 +19,7 @@
 #include </home/runner/EulerBot/linux/dma-direction.h>
 #include </home/runner/EulerBot/linux/vhost_iotlb.h>
 #endif
-#include <asm/barrier.h>
+#include </home/runner/EulerBot/asm/barrier.h>
 
 /* virtio_ring with information needed for host access. */
 struct vringh {

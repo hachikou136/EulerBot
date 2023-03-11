@@ -4,7 +4,7 @@
 
 #include </home/runner/EulerBot/linux/atomic.h>
 #include </home/runner/EulerBot/linux/percpu.h>
-#include <asm/local.h>
+#include </home/runner/EulerBot/asm/local.h>
 
 struct pcpu_gen_cookie {
 	local_t nesting;

@@ -3,7 +3,7 @@
 #define _LINUX_TERMIOS_CONV_H
 
 #include </home/runner/EulerBot/linux/uaccess.h>
-#include <asm/termios.h>
+#include </home/runner/EulerBot/asm/termios.h>
 
 /*	intr=^C		quit=^\		erase=del	kill=^U
 	eof=^D		vtime=\0	vmin=\1		sxtc=\0

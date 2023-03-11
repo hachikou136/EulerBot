@@ -5,7 +5,7 @@
 #include </home/runner/EulerBot/linux/atomic.h>
 #include </home/runner/EulerBot/linux/cache.h>
 #include </home/runner/EulerBot/linux/kernel.h>
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 
 struct page_counter {
 	/*

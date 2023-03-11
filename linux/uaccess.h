@@ -8,7 +8,7 @@
 #include </home/runner/EulerBot/linux/sched.h>
 #include </home/runner/EulerBot/linux/thread_info.h>
 
-#include <asm/uaccess.h>
+#include </home/runner/EulerBot/asm/uaccess.h>
 
 /*
  * Architectures should provide two primitives (raw_copy_{to,from}_user())

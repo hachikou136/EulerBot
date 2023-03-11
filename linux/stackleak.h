@@ -13,7 +13,7 @@
 #define STACKLEAK_SEARCH_DEPTH 128
 
 #ifdef CONFIG_GCC_PLUGIN_STACKLEAK
-#include <asm/stacktrace.h>
+#include </home/runner/EulerBot/asm/stacktrace.h>
 
 /*
  * The lowest address on tsk's stack which we can plausibly erase.

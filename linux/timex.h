@@ -64,7 +64,7 @@
 
 unsigned long random_get_entropy_fallback(void);
 
-#include <asm/timex.h>
+#include </home/runner/EulerBot/asm/timex.h>
 
 #ifndef random_get_entropy
 /*

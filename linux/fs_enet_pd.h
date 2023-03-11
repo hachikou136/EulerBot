@@ -20,7 +20,7 @@
 #include </home/runner/EulerBot/linux/string.h>
 #include </home/runner/EulerBot/linux/of_mdio.h>
 #include </home/runner/EulerBot/linux/if_ether.h>
-#include <asm/types.h>
+#include </home/runner/EulerBot/asm/types.h>
 
 #define FS_ENET_NAME	"fs_enet"
 

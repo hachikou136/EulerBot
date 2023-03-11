@@ -21,7 +21,7 @@
 #endif
 #define PAGE_MASK	(~(PAGE_SIZE-1))
 
-#include <asm/setup.h>
+#include </home/runner/EulerBot/asm/setup.h>
 
 #ifndef __ASSEMBLY__
 

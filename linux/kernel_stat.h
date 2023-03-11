@@ -9,7 +9,7 @@
 #include </home/runner/EulerBot/linux/interrupt.h>
 #include </home/runner/EulerBot/linux/sched.h>
 #include </home/runner/EulerBot/linux/vtime.h>
-#include <asm/irq.h>
+#include </home/runner/EulerBot/asm/irq.h>
 
 /*
  * 'kernel_stat.h' contains the definitions needed for doing

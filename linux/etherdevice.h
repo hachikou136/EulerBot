@@ -21,8 +21,8 @@
 #include </home/runner/EulerBot/linux/netdevice.h>
 #include </home/runner/EulerBot/linux/random.h>
 #include </home/runner/EulerBot/linux/crc32.h>
-#include <asm/unaligned.h>
-#include <asm/bitsperlong.h>
+#include </home/runner/EulerBot/asm/unaligned.h>
+#include </home/runner/EulerBot/asm/bitsperlong.h>
 
 #ifdef __KERNEL__
 struct device;

@@ -3,8 +3,8 @@
 #define __ASM_GENERIC_QRWLOCK_TYPES_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
-#include <asm/spinlock_types.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
+#include </home/runner/EulerBot/asm/spinlock_types.h>
 
 /*
  * The queued read/write lock data structure

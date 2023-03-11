@@ -242,7 +242,7 @@ static inline void __kcsan_disable_current(void) { }
  *
  * Also see definition of __tsan_atomic_signal_fence() in kernel/kcsan/core.c.
  *
- * These are all macros, like <asm/barrier.h>, since some architectures use them
+ * These are all macros, like </home/runner/EulerBot/asm/barrier.h>, since some architectures use them
  * in non-static inline functions.
  */
 #define __KCSAN_BARRIER_TO_SIGNAL_FENCE(name)					\

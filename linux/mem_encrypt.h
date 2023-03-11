@@ -14,7 +14,7 @@
 
 #ifdef CONFIG_ARCH_HAS_MEM_ENCRYPT
 
-#include <asm/mem_encrypt.h>
+#include </home/runner/EulerBot/asm/mem_encrypt.h>
 
 #endif	/* CONFIG_ARCH_HAS_MEM_ENCRYPT */
 

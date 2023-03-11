@@ -5,7 +5,7 @@
 #include </home/runner/EulerBot/linux/limits.h>	/* For INT_MAX */
 #include </home/runner/EulerBot/linux/string.h>
 
-#include <asm/byteorder.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
 
 #define INT32_MAX	S32_MAX
 #define UINT32_MAX	U32_MAX

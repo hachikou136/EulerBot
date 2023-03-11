@@ -22,8 +22,8 @@
  */
 
 #ifdef CONFIG_PERF_EVENTS
-# include <asm/perf_event.h>
-# include <asm/local64.h>
+# include </home/runner/EulerBot/asm/perf_event.h>
+# include </home/runner/EulerBot/asm/local64.h>
 #endif
 
 #define PERF_GUEST_ACTIVE	0x01
@@ -37,7 +37,7 @@ struct perf_guest_info_callbacks {
 
 #ifdef CONFIG_HAVE_HW_BREAKPOINT
 #include </home/runner/EulerBot/linux/rhashtable-types.h>
-#include <asm/hw_breakpoint.h>
+#include </home/runner/EulerBot/asm/hw_breakpoint.h>
 #endif
 
 #include </home/runner/EulerBot/linux/list.h>
@@ -62,7 +62,7 @@ struct perf_guest_info_callbacks {
 #include </home/runner/EulerBot/linux/security.h>
 #include </home/runner/EulerBot/linux/static_call.h>
 #include </home/runner/EulerBot/linux/lockdep.h>
-#include <asm/local.h>
+#include </home/runner/EulerBot/asm/local.h>
 
 struct perf_callchain_entry {
 	__u64				nr;

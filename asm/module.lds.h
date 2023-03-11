@@ -3,7 +3,7 @@
 #define __ASM_GENERIC_MODULE_LDS_H
 
 /*
- * <asm/module.lds.h> can specify arch-specific sections for linking modules.
+ * </home/runner/EulerBot/asm/module.lds.h> can specify arch-specific sections for linking modules.
  * Empty for the asm-generic header.
  */
 

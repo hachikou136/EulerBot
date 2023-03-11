@@ -13,8 +13,8 @@
 #define _LINUX_TRACE_IRQFLAGS_H
 
 #include </home/runner/EulerBot/linux/typecheck.h>
-#include <asm/irqflags.h>
-#include <asm/percpu.h>
+#include </home/runner/EulerBot/asm/irqflags.h>
+#include </home/runner/EulerBot/asm/percpu.h>
 
 /* Currently lockdep_softirqs_on/off is used only by lockdep */
 #ifdef CONFIG_PROVE_LOCKING

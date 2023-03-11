@@ -20,9 +20,9 @@
 #include </home/runner/EulerBot/linux/io.h>
 #include </home/runner/EulerBot/linux/slab.h>
 
-#include <asm/irq.h>
-#include <asm/ptrace.h>
-#include <asm/irq_regs.h>
+#include </home/runner/EulerBot/asm/irq.h>
+#include </home/runner/EulerBot/asm/ptrace.h>
+#include </home/runner/EulerBot/asm/irq_regs.h>
 
 struct seq_file;
 struct module;
@@ -593,7 +593,7 @@ enum {
 /*
  * Pick up the arch-dependent methods:
  */
-#include <asm/hw_irq.h>
+#include </home/runner/EulerBot/asm/hw_irq.h>
 
 #ifndef NR_IRQS_LEGACY
 # define NR_IRQS_LEGACY 0

@@ -4,7 +4,7 @@
 
 #include </home/runner/EulerBot/linux/const.h>
 #include <vdso/bits.h>
-#include <asm/bitsperlong.h>
+#include </home/runner/EulerBot/asm/bitsperlong.h>
 
 #define BIT_MASK(nr)		(UL(1) << ((nr) % BITS_PER_LONG))
 #define BIT_WORD(nr)		((nr) / BITS_PER_LONG)

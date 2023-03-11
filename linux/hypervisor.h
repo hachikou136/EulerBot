@@ -9,8 +9,8 @@
 
 #ifdef CONFIG_X86
 
-#include <asm/jailhouse_para.h>
-#include <asm/x86_init.h>
+#include </home/runner/EulerBot/asm/jailhouse_para.h>
+#include </home/runner/EulerBot/asm/x86_init.h>
 
 static inline void hypervisor_pin_vcpu(int cpu)
 {

@@ -3,7 +3,7 @@
 #define _LINUX_SOCKET_H
 
 
-#include <asm/socket.h>			/* arch-dependent defines	*/
+#include </home/runner/EulerBot/asm/socket.h>			/* arch-dependent defines	*/
 #include </home/runner/EulerBot/linux/sockios.h>		/* the SIOCxxx I/O controls	*/
 #include </home/runner/EulerBot/linux/uio.h>			/* iovec support		*/
 #include </home/runner/EulerBot/linux/types.h>		/* pid_t			*/

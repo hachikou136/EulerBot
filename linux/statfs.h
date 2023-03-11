@@ -3,8 +3,8 @@
 #define _LINUX_STATFS_H
 
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/statfs.h>
-#include <asm/byteorder.h>
+#include </home/runner/EulerBot/asm/statfs.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
 
 struct kstatfs {
 	long f_type;

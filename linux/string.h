@@ -17,7 +17,7 @@ extern void *memdup_user_nul(const void __user *, size_t);
 /*
  * Include machine specific inline routines
  */
-#include <asm/string.h>
+#include </home/runner/EulerBot/asm/string.h>
 
 #ifndef __HAVE_ARCH_STRCPY
 extern char * strcpy(char *,const char *);

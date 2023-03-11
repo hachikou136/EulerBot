@@ -3,7 +3,7 @@
 #define _LINUX_PART_STAT_H
 
 #include </home/runner/EulerBot/linux/blkdev.h>
-#include <asm/local.h>
+#include </home/runner/EulerBot/asm/local.h>
 
 struct disk_stats {
 	u64 nsecs[NR_STAT_GROUPS];

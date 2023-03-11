@@ -6,7 +6,7 @@
 #include </home/runner/EulerBot/linux/sched.h>
 
 #ifdef CONFIG_VIRT_CPU_ACCOUNTING_NATIVE
-#include <asm/vtime.h>
+#include </home/runner/EulerBot/asm/vtime.h>
 #endif
 
 /*

@@ -2,7 +2,7 @@
 #ifndef __RAS_H__
 #define __RAS_H__
 
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/errno.h>
 #include </home/runner/EulerBot/linux/uuid.h>
 #include </home/runner/EulerBot/linux/cper.h>
 

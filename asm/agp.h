@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_AGP_H
 #define _ASM_GENERIC_AGP_H
 
-#include <asm/io.h>
+#include </home/runner/EulerBot/asm/io.h>
 
 #define map_page_into_agp(page) do {} while (0)
 #define unmap_page_from_agp(page) do {} while (0)

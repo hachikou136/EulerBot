@@ -14,7 +14,7 @@
 #include </home/runner/EulerBot/linux/irqreturn.h>
 #include </home/runner/EulerBot/linux/semaphore.h>
 #include </home/runner/EulerBot/linux/device.h>
-#include <asm/ptrace.h>
+#include </home/runner/EulerBot/asm/ptrace.h>
 #include <uapi/linux/parport.h>
 
 /* Define this later. */

@@ -4,7 +4,7 @@
 
 #include </home/runner/EulerBot/linux/sched.h>
 #include </home/runner/EulerBot/linux/unistd.h>
-#include <asm/exec.h>
+#include </home/runner/EulerBot/asm/exec.h>
 #include <uapi/linux/binfmts.h>
 
 struct filename;

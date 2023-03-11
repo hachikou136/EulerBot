@@ -77,7 +77,7 @@
 #include </home/runner/EulerBot/linux/list.h>
 #include </home/runner/EulerBot/linux/types.h>
 
-#include <asm/bug.h>
+#include </home/runner/EulerBot/asm/bug.h>
 
 struct plist_head {
 	struct list_head node_list;

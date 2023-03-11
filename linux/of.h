@@ -22,8 +22,8 @@
 #include </home/runner/EulerBot/linux/property.h>
 #include </home/runner/EulerBot/linux/list.h>
 
-#include <asm/byteorder.h>
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
+#include </home/runner/EulerBot/asm/errno.h>
 
 typedef u32 phandle;
 typedef u32 ihandle;
@@ -258,7 +258,7 @@ static inline unsigned long of_read_ulong(const __be32 *cell, int size)
 }
 
 #if defined(CONFIG_SPARC)
-#include <asm/prom.h>
+#include </home/runner/EulerBot/asm/prom.h>
 #endif
 
 #define OF_IS_DYNAMIC(x) test_bit(OF_DYNAMIC, &x->_flags)

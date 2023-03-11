@@ -33,7 +33,7 @@
 #include </home/runner/EulerBot/linux/mmzone.h>
 #include </home/runner/EulerBot/linux/smp.h>
 #include </home/runner/EulerBot/linux/percpu.h>
-#include <asm/topology.h>
+#include </home/runner/EulerBot/asm/topology.h>
 
 #ifndef nr_cpus_node
 #define nr_cpus_node(node) cpumask_weight(cpumask_of_node(node))

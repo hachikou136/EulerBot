@@ -93,8 +93,8 @@ extern const int mmap_rnd_compat_bits_max;
 extern int mmap_rnd_compat_bits __read_mostly;
 #endif
 
-#include <asm/page.h>
-#include <asm/processor.h>
+#include </home/runner/EulerBot/asm/page.h>
+#include </home/runner/EulerBot/asm/processor.h>
 
 /*
  * Architectures that support memory tagging (assigning tags to memory regions,
@@ -122,7 +122,7 @@ extern int mmap_rnd_compat_bits __read_mostly;
 /*
  * To prevent common memory management code establishing
  * a zero page mapping on a read fault.
- * This macro should be defined within <asm/pgtable.h>.
+ * This macro should be defined within </home/runner/EulerBot/asm/pgtable.h>.
  * s390 does this to prevent multiplexing of hardware bits
  * related to the physical page in case of virtualization.
  */
@@ -134,7 +134,7 @@ extern int mmap_rnd_compat_bits __read_mostly;
  * On some architectures it is expensive to call memset() for small sizes.
  * If an architecture decides to implement their own version of
  * mm_zero_struct_page they should wrap the defines below in a #ifndef and
- * define their own version of this macro in <asm/pgtable.h>
+ * define their own version of this macro in </home/runner/EulerBot/asm/pgtable.h>
  */
 #if BITS_PER_LONG == 64
 /* This function must be updated when the size of struct page grows above 96

@@ -14,7 +14,7 @@
 #include </home/runner/EulerBot/linux/atomic.h>
 #include </home/runner/EulerBot/linux/page-flags.h>
 #include <uapi/linux/mempolicy.h>
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 
 struct notifier_block;
 

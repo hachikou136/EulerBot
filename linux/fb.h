@@ -15,7 +15,7 @@
 #include </home/runner/EulerBot/linux/list.h>
 #include </home/runner/EulerBot/linux/backlight.h>
 #include </home/runner/EulerBot/linux/slab.h>
-#include <asm/io.h>
+#include </home/runner/EulerBot/asm/io.h>
 
 struct vm_area_struct;
 struct fb_info;

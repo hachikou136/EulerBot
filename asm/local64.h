@@ -3,7 +3,7 @@
 #define _ASM_GENERIC_LOCAL64_H
 
 #include <linux/percpu.h>
-#include <asm/types.h>
+#include </home/runner/EulerBot/asm/types.h>
 
 /*
  * A signed long type for operations which are atomic for a single CPU.
@@ -19,7 +19,7 @@
 
 #if BITS_PER_LONG == 64
 
-#include <asm/local.h>
+#include </home/runner/EulerBot/asm/local.h>
 
 typedef struct {
 	local_t a;

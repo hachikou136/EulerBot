@@ -9,7 +9,7 @@
 #include </home/runner/EulerBot/linux/pfn.h>
 #include </home/runner/EulerBot/linux/init.h>
 
-#include <asm/percpu.h>
+#include </home/runner/EulerBot/asm/percpu.h>
 
 /* enough to cover all DEFINE_PER_CPUs in modules */
 #ifdef CONFIG_MODULES

@@ -16,9 +16,9 @@
 #include </home/runner/EulerBot/linux/jump_label.h>
 
 #include </home/runner/EulerBot/linux/atomic.h>
-#include <asm/ptrace.h>
-#include <asm/irq.h>
-#include <asm/sections.h>
+#include </home/runner/EulerBot/asm/ptrace.h>
+#include </home/runner/EulerBot/asm/irq.h>
+#include </home/runner/EulerBot/asm/sections.h>
 
 /*
  * These correspond to the IORESOURCE_IRQ_* defines in

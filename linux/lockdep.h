@@ -12,7 +12,7 @@
 
 #include </home/runner/EulerBot/linux/lockdep_types.h>
 #include </home/runner/EulerBot/linux/smp.h>
-#include <asm/percpu.h>
+#include </home/runner/EulerBot/asm/percpu.h>
 
 struct task_struct;
 

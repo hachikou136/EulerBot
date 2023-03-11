@@ -4,7 +4,7 @@
 #include </home/runner/EulerBot/linux/types.h>
 
 #if defined(CONFIG_SMP)
-# include <asm/spinlock_types.h>
+# include </home/runner/EulerBot/asm/spinlock_types.h>
 #else
 # include </home/runner/EulerBot/linux/spinlock_types_up.h>
 #endif

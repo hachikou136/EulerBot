@@ -34,7 +34,7 @@
 
 #ifdef __KERNEL__
 
-#include <asm/hp300hw.h>
+#include </home/runner/EulerBot/asm/hp300hw.h>
 
 typedef __u16 dio_id;
 

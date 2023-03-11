@@ -46,7 +46,7 @@ struct uprobe_consumer {
 };
 
 #ifdef CONFIG_UPROBES
-#include <asm/uprobes.h>
+#include </home/runner/EulerBot/asm/uprobes.h>
 
 enum uprobe_task_state {
 	UTASK_RUNNING,

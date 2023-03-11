@@ -109,7 +109,7 @@ struct static_key {
 #endif /* __ASSEMBLY__ */
 
 #ifdef CONFIG_JUMP_LABEL
-#include <asm/jump_label.h>
+#include </home/runner/EulerBot/asm/jump_label.h>
 
 #ifndef __ASSEMBLY__
 #ifdef CONFIG_HAVE_ARCH_JUMP_LABEL_RELATIVE

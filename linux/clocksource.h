@@ -18,15 +18,15 @@
 #include </home/runner/EulerBot/linux/init.h>
 #include </home/runner/EulerBot/linux/of.h>
 #include </home/runner/EulerBot/linux/clocksource_ids.h>
-#include <asm/div64.h>
-#include <asm/io.h>
+#include </home/runner/EulerBot/asm/div64.h>
+#include </home/runner/EulerBot/asm/io.h>
 
 struct clocksource;
 struct module;
 
 #if defined(CONFIG_ARCH_CLOCKSOURCE_DATA) || \
     defined(CONFIG_GENERIC_GETTIMEOFDAY)
-#include <asm/clocksource.h>
+#include </home/runner/EulerBot/asm/clocksource.h>
 #endif
 
 #include <vdso/clocksource.h>

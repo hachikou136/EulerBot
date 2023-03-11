@@ -24,7 +24,7 @@
 
 extern unsigned long loops_per_jiffy;
 
-#include <asm/delay.h>
+#include </home/runner/EulerBot/asm/delay.h>
 
 /*
  * Using udelay() for intervals greater than a few milliseconds can

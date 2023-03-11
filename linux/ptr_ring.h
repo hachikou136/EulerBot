@@ -24,7 +24,7 @@
 #include </home/runner/EulerBot/linux/compiler.h>
 #include </home/runner/EulerBot/linux/slab.h>
 #include </home/runner/EulerBot/linux/mm.h>
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/errno.h>
 #endif
 
 struct ptr_ring {

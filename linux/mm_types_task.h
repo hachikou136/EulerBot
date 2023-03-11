@@ -13,10 +13,10 @@
 #include </home/runner/EulerBot/linux/atomic.h>
 #include </home/runner/EulerBot/linux/cpumask.h>
 
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 
 #ifdef CONFIG_ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH
-#include <asm/tlbbatch.h>
+#include </home/runner/EulerBot/asm/tlbbatch.h>
 #endif
 
 #define USE_SPLIT_PTE_PTLOCKS	(NR_CPUS >= CONFIG_SPLIT_PTLOCK_CPUS)

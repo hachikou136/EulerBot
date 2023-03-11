@@ -2,7 +2,7 @@
 #ifndef _LINUX_KDEBUG_H
 #define _LINUX_KDEBUG_H
 
-#include <asm/kdebug.h>
+#include </home/runner/EulerBot/asm/kdebug.h>
 
 struct notifier_block;
 

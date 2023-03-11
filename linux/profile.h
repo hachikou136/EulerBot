@@ -7,7 +7,7 @@
 #include </home/runner/EulerBot/linux/cpumask.h>
 #include </home/runner/EulerBot/linux/cache.h>
 
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/errno.h>
 
 #define CPU_PROFILING	1
 #define SCHED_PROFILING	2

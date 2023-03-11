@@ -19,9 +19,9 @@
 #include </home/runner/EulerBot/linux/uaccess.h>
 #include </home/runner/EulerBot/linux/unistd.h>
 
-#include <asm/compat.h>
-#include <asm/siginfo.h>
-#include <asm/signal.h>
+#include </home/runner/EulerBot/asm/compat.h>
+#include </home/runner/EulerBot/asm/siginfo.h>
+#include </home/runner/EulerBot/asm/signal.h>
 
 #ifdef CONFIG_ARCH_HAS_SYSCALL_WRAPPER
 /*
@@ -31,7 +31,7 @@
  + the prototypes for the compat_sys_*() functions below will *not* be included
  * if CONFIG_ARCH_HAS_SYSCALL_WRAPPER is enabled.
  */
-#include <asm/syscall_wrapper.h>
+#include </home/runner/EulerBot/asm/syscall_wrapper.h>
 #endif /* CONFIG_ARCH_HAS_SYSCALL_WRAPPER */
 
 #ifndef COMPAT_USE_64BIT_TIME

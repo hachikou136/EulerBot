@@ -50,7 +50,7 @@ static inline phys_addr_t translate_dma_to_phys(struct device *dev,
 }
 
 #ifdef CONFIG_ARCH_HAS_PHYS_TO_DMA
-#include <asm/dma-direct.h>
+#include </home/runner/EulerBot/asm/dma-direct.h>
 #ifndef phys_to_dma_unencrypted
 #define phys_to_dma_unencrypted		phys_to_dma
 #endif

@@ -30,7 +30,7 @@
 #include </home/runner/EulerBot/linux/device/bus.h>
 #include </home/runner/EulerBot/linux/device/class.h>
 #include </home/runner/EulerBot/linux/device/driver.h>
-#include <asm/device.h>
+#include </home/runner/EulerBot/asm/device.h>
 
 struct device;
 struct device_private;

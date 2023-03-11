@@ -20,7 +20,7 @@
 #include </home/runner/EulerBot/linux/init.h>
 #include </home/runner/EulerBot/linux/fs.h>
 
-#include <asm/ftrace.h>
+#include </home/runner/EulerBot/asm/ftrace.h>
 
 /*
  * If the arch supports passing the variable contents of

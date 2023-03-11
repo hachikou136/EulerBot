@@ -30,7 +30,7 @@
 #ifndef	CONFIG_NUMA
 
 /* Other architectures wishing to use this simple topology API should fill
-   in the below functions as appropriate in their own <asm/topology.h> file. */
+   in the below functions as appropriate in their own </home/runner/EulerBot/asm/topology.h> file. */
 #ifndef cpu_to_node
 #define cpu_to_node(cpu)	((void)(cpu),0)
 #endif

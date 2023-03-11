@@ -5,7 +5,7 @@
 #include </home/runner/EulerBot/linux/compiler_types.h>
 #include </home/runner/EulerBot/linux/stringify.h>
 #include </home/runner/EulerBot/linux/export.h>
-#include <asm/linkage.h>
+#include </home/runner/EulerBot/asm/linkage.h>
 
 /* Some toolchains use other characters (e.g. '`') to mark new line in macro */
 #ifndef ASM_NL

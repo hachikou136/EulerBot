@@ -5,7 +5,7 @@
 #include </home/runner/EulerBot/linux/compiler.h>
 #include </home/runner/EulerBot/linux/types.h>
 
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/errno.h>
 
 /*
  * Kernel pointers have redundant information, so we can use a

@@ -3,7 +3,7 @@
 #define _LINUX_ELF_H
 
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/elf.h>
+#include </home/runner/EulerBot/asm/elf.h>
 #include <uapi/linux/elf.h>
 
 #ifndef elf_read_implies_exec

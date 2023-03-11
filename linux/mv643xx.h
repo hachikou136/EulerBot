@@ -9,7 +9,7 @@
 #ifndef __ASM_MV643XX_H
 #define __ASM_MV643XX_H
 
-#include <asm/types.h>
+#include </home/runner/EulerBot/asm/types.h>
 #include </home/runner/EulerBot/linux/mv643xx_eth.h>
 #include </home/runner/EulerBot/linux/mv643xx_i2c.h>
 

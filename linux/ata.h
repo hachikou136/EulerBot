@@ -16,7 +16,7 @@
 #include </home/runner/EulerBot/linux/bits.h>
 #include </home/runner/EulerBot/linux/string.h>
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/byteorder.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
 
 /* defines only for the constants which don't work well as enums */
 #define ATA_DMA_BOUNDARY	0xffffUL

@@ -10,10 +10,10 @@
 
 #include </home/runner/EulerBot/linux/init.h>
 #include </home/runner/EulerBot/linux/mod_devicetable.h>
-#include <asm/cpufeature.h>
+#include </home/runner/EulerBot/asm/cpufeature.h>
 
 /*
- * Macros imported from <asm/cpufeature.h>:
+ * Macros imported from </home/runner/EulerBot/asm/cpufeature.h>:
  * - cpu_feature(x)		ordinal value of feature called 'x'
  * - cpu_have_feature(u32 n)	whether feature #n is available
  * - MAX_CPU_FEATURES		upper bound for feature ordinal values

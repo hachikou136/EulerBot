@@ -10,7 +10,7 @@
 
 #include </home/runner/EulerBot/linux/init.h>
 #include </home/runner/EulerBot/linux/mm.h>
-#include <asm/dma.h>
+#include </home/runner/EulerBot/asm/dma.h>
 
 extern unsigned long max_low_pfn;
 extern unsigned long min_low_pfn;

@@ -8,7 +8,7 @@
 #include </home/runner/EulerBot/linux/seccomp.h>
 #include </home/runner/EulerBot/linux/sched.h>
 
-#include <asm/entry-common.h>
+#include </home/runner/EulerBot/asm/entry-common.h>
 
 /*
  * Define dummy _TIF work flags if not defined by the architecture or for

@@ -23,8 +23,8 @@
 #include <linux/bitops.h>
 #include <linux/cpumask.h>
 #include <linux/nmi.h>
-#include <asm/ptrace.h>
-#include <asm/hyperv-tlfs.h>
+#include </home/runner/EulerBot/asm/ptrace.h>
+#include </home/runner/EulerBot/asm/hyperv-tlfs.h>
 
 struct ms_hyperv_info {
 	u32 features;

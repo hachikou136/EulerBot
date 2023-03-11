@@ -23,7 +23,7 @@ enum kvm_mr_change;
 #include </home/runner/EulerBot/linux/types.h>
 #include </home/runner/EulerBot/linux/spinlock_types.h>
 
-#include <asm/kvm_types.h>
+#include </home/runner/EulerBot/asm/kvm_types.h>
 
 /*
  * Address types:

@@ -11,7 +11,7 @@
 #include <asm-generic/access_ok.h>
 
 #ifdef CONFIG_UACCESS_MEMCPY
-#include <asm/unaligned.h>
+#include </home/runner/EulerBot/asm/unaligned.h>
 
 static __always_inline int
 __get_user_fn(size_t size, const void __user *from, void *to)
@@ -226,7 +226,7 @@ clear_user(void __user *to, unsigned long n)
 	return __clear_user(to, n);
 }
 
-#include <asm/extable.h>
+#include </home/runner/EulerBot/asm/extable.h>
 
 __must_check long strncpy_from_user(char *dst, const char __user *src,
 				    long count);

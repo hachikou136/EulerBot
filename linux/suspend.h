@@ -8,7 +8,7 @@
 #include </home/runner/EulerBot/linux/pm.h>
 #include </home/runner/EulerBot/linux/mm.h>
 #include </home/runner/EulerBot/linux/freezer.h>
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/errno.h>
 
 #ifdef CONFIG_VT
 extern void pm_set_vt_switch(int);

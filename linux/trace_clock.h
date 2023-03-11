@@ -13,7 +13,7 @@
 #include </home/runner/EulerBot/linux/compiler.h>
 #include </home/runner/EulerBot/linux/types.h>
 
-#include <asm/trace_clock.h>
+#include </home/runner/EulerBot/asm/trace_clock.h>
 
 extern u64 notrace trace_clock_local(void);
 extern u64 notrace trace_clock(void);

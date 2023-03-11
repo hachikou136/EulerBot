@@ -10,7 +10,7 @@
 #include </home/runner/EulerBot/linux/time.h>
 #include </home/runner/EulerBot/linux/timex.h>
 #include <vdso/jiffies.h>
-#include <asm/param.h>			/* for HZ */
+#include </home/runner/EulerBot/asm/param.h>			/* for HZ */
 #include <generated/timeconst.h>
 
 /*

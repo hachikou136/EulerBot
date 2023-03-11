@@ -43,7 +43,7 @@
 #include </home/runner/EulerBot/linux/time.h>
 #include </home/runner/EulerBot/linux/timer.h>
 #if defined(__hppa__)
-#include <asm/hardware.h>
+#include </home/runner/EulerBot/asm/hardware.h>
 #endif
 
 

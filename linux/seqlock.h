@@ -20,7 +20,7 @@
 #include </home/runner/EulerBot/linux/preempt.h>
 #include </home/runner/EulerBot/linux/spinlock.h>
 
-#include <asm/processor.h>
+#include </home/runner/EulerBot/asm/processor.h>
 
 /*
  * The seqlock seqcount_t interface does not prescribe a precise sequence of

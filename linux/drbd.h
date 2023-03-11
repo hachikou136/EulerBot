@@ -13,11 +13,11 @@
 */
 #ifndef DRBD_H
 #define DRBD_H
-#include <asm/types.h>
+#include </home/runner/EulerBot/asm/types.h>
 
 #ifdef __KERNEL__
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/byteorder.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
 #else
 #include <sys/types.h>
 #include <sys/wait.h>

@@ -7,7 +7,7 @@
 #define _LINUX_NOSPEC_H
 
 #include </home/runner/EulerBot/linux/compiler.h>
-#include <asm/barrier.h>
+#include </home/runner/EulerBot/asm/barrier.h>
 
 struct task_struct;
 

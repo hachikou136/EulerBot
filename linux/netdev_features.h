@@ -7,7 +7,7 @@
 
 #include </home/runner/EulerBot/linux/types.h>
 #include </home/runner/EulerBot/linux/bitops.h>
-#include <asm/byteorder.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
 
 typedef u64 netdev_features_t;
 

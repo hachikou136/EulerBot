@@ -3,7 +3,7 @@
 #define _LINUX_PGTABLE_H
 
 #include </home/runner/EulerBot/linux/pfn.h>
-#include <asm/pgtable.h>
+#include </home/runner/EulerBot/asm/pgtable.h>
 
 #ifndef __ASSEMBLY__
 #ifdef CONFIG_MMU
@@ -32,7 +32,7 @@
 /*
  * This defines the first usable user address. Platforms
  * can override its value with custom FIRST_USER_ADDRESS
- * defined in their respective <asm/pgtable.h>.
+ * defined in their respective </home/runner/EulerBot/asm/pgtable.h>.
  */
 #ifndef FIRST_USER_ADDRESS
 #define FIRST_USER_ADDRESS	0UL
@@ -41,7 +41,7 @@
 /*
  * This defines the generic helper for accessing PMD page
  * table page. Although platforms can still override this
- * via their respective <asm/pgtable.h>.
+ * via their respective </home/runner/EulerBot/asm/pgtable.h>.
  */
 #ifndef pmd_pgtable
 #define pmd_pgtable(pmd) pmd_page(pmd)

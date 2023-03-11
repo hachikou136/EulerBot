@@ -19,7 +19,7 @@
 #include </home/runner/EulerBot/linux/ioport.h>
 #include </home/runner/EulerBot/linux/mod_devicetable.h>
 
-#include <asm/zorro.h>
+#include </home/runner/EulerBot/asm/zorro.h>
 
 
     /*

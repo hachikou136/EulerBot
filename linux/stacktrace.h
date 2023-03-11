@@ -3,7 +3,7 @@
 #define __LINUX_STACKTRACE_H
 
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/errno.h>
 
 struct task_struct;
 struct pt_regs;

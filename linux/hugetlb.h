@@ -30,7 +30,7 @@ typedef struct { unsigned long pd; } hugepd_t;
 
 #include </home/runner/EulerBot/linux/mempolicy.h>
 #include </home/runner/EulerBot/linux/shm.h>
-#include <asm/tlbflush.h>
+#include </home/runner/EulerBot/asm/tlbflush.h>
 
 /*
  * For HugeTLB page, there are more metadata to save in the struct page. But
@@ -831,7 +831,7 @@ static inline unsigned int blocks_per_huge_page(struct hstate *h)
 	return huge_page_size(h) / 512;
 }
 
-#include <asm/hugetlb.h>
+#include </home/runner/EulerBot/asm/hugetlb.h>
 
 #ifndef is_hugepage_only_range
 static inline int is_hugepage_only_range(struct mm_struct *mm,

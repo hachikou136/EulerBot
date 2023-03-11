@@ -22,7 +22,7 @@
 
 #ifdef CONFIG_NUMA
 #include </home/runner/EulerBot/linux/printk.h>
-#include <asm/sparsemem.h>
+#include </home/runner/EulerBot/asm/sparsemem.h>
 
 /* Generic implementation available */
 int numa_map_to_online_node(int node);

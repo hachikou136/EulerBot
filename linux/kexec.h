@@ -16,7 +16,7 @@
 #if !defined(__ASSEMBLY__)
 
 #include </home/runner/EulerBot/linux/crash_core.h>
-#include <asm/io.h>
+#include </home/runner/EulerBot/asm/io.h>
 #include </home/runner/EulerBot/linux/range.h>
 
 #include <uapi/linux/kexec.h>
@@ -33,7 +33,7 @@ extern note_buf_t __percpu *crash_notes;
 #include </home/runner/EulerBot/linux/compat.h>
 #include </home/runner/EulerBot/linux/ioport.h>
 #include </home/runner/EulerBot/linux/module.h>
-#include <asm/kexec.h>
+#include </home/runner/EulerBot/asm/kexec.h>
 
 /* Verify architecture specific macros are defined */
 

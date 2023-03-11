@@ -15,7 +15,7 @@
 
 #include <linux/compiler.h>
 #include <linux/kcsan-checks.h>
-#include <asm/rwonce.h>
+#include </home/runner/EulerBot/asm/rwonce.h>
 
 #ifndef nop
 #define nop()	asm volatile ("nop")

@@ -56,7 +56,7 @@ struct gpio {
 #ifdef CONFIG_GPIOLIB
 
 #ifdef CONFIG_ARCH_HAVE_CUSTOM_GPIO_H
-#include <asm/gpio.h>
+#include </home/runner/EulerBot/asm/gpio.h>
 #else
 
 #include <asm-generic/gpio.h>

@@ -11,12 +11,12 @@
 #ifndef __LINUX_MUTEX_H
 #define __LINUX_MUTEX_H
 
-#include <asm/current.h>
+#include </home/runner/EulerBot/asm/current.h>
 #include </home/runner/EulerBot/linux/list.h>
 #include </home/runner/EulerBot/linux/spinlock_types.h>
 #include </home/runner/EulerBot/linux/lockdep.h>
 #include </home/runner/EulerBot/linux/atomic.h>
-#include <asm/processor.h>
+#include </home/runner/EulerBot/asm/processor.h>
 #include </home/runner/EulerBot/linux/osq_lock.h>
 #include </home/runner/EulerBot/linux/debug_locks.h>
 

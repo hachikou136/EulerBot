@@ -5,7 +5,7 @@
 #include </home/runner/EulerBot/linux/types.h>
 #include </home/runner/EulerBot/linux/mm.h>
 #include </home/runner/EulerBot/linux/fs.h>
-#include <asm/siginfo.h>
+#include </home/runner/EulerBot/asm/siginfo.h>
 
 #ifdef CONFIG_COREDUMP
 struct core_vma_metadata {

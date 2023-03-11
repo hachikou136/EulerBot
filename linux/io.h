@@ -10,8 +10,8 @@
 #include </home/runner/EulerBot/linux/init.h>
 #include </home/runner/EulerBot/linux/bug.h>
 #include </home/runner/EulerBot/linux/err.h>
-#include <asm/io.h>
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/io.h>
+#include </home/runner/EulerBot/asm/page.h>
 
 struct device;
 struct resource;
@@ -92,7 +92,7 @@ static inline void __iomem *pci_remap_cfgspace(phys_addr_t offset,
 /*
  * Some systems do not have legacy ISA devices.
  * /dev/port is not a valid interface on these systems.
- * So for those archs, <asm/io.h> should define the following symbol.
+ * So for those archs, </home/runner/EulerBot/asm/io.h> should define the following symbol.
  */
 #ifndef arch_has_dev_port
 #define arch_has_dev_port()     (1)

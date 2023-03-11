@@ -30,7 +30,7 @@
 #include </home/runner/EulerBot/linux/build_bug.h>
 #include </home/runner/EulerBot/linux/static_call_types.h>
 #include </home/runner/EulerBot/linux/instruction_pointer.h>
-#include <asm/byteorder.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
 
 #include <uapi/linux/kernel.h>
 

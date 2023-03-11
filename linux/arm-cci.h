@@ -11,7 +11,7 @@
 #include </home/runner/EulerBot/linux/errno.h>
 #include </home/runner/EulerBot/linux/types.h>
 
-#include <asm/arm-cci.h>
+#include </home/runner/EulerBot/asm/arm-cci.h>
 
 struct device_node;
 

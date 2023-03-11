@@ -2,7 +2,7 @@
 #ifndef _LINUX_BUG_H
 #define _LINUX_BUG_H
 
-#include <asm/bug.h>
+#include </home/runner/EulerBot/asm/bug.h>
 #include </home/runner/EulerBot/linux/compiler.h>
 #include </home/runner/EulerBot/linux/build_bug.h>
 

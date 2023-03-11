@@ -3,9 +3,9 @@
 #define _LINUX_SHM_H_
 
 #include </home/runner/EulerBot/linux/list.h>
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 #include <uapi/linux/shm.h>
-#include <asm/shmparam.h>
+#include </home/runner/EulerBot/asm/shmparam.h>
 
 struct file;
 

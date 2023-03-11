@@ -5,7 +5,7 @@
 #include </home/runner/EulerBot/linux/types.h>
 
 #ifdef CONFIG_HAVE_ARCH_BITREVERSE
-#include <asm/bitrev.h>
+#include </home/runner/EulerBot/asm/bitrev.h>
 
 #define __bitrev32 __arch_bitrev32
 #define __bitrev16 __arch_bitrev16

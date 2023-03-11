@@ -20,7 +20,7 @@
 #include </home/runner/EulerBot/linux/seqlock.h>
 #include </home/runner/EulerBot/linux/percpu_counter.h>
 
-#include <asm/mmu.h>
+#include </home/runner/EulerBot/asm/mmu.h>
 
 #ifndef AT_VECTOR_SIZE_ARCH
 #define AT_VECTOR_SIZE_ARCH 0

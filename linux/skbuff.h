@@ -21,7 +21,7 @@
 #include </home/runner/EulerBot/linux/refcount.h>
 
 #include </home/runner/EulerBot/linux/atomic.h>
-#include <asm/types.h>
+#include </home/runner/EulerBot/asm/types.h>
 #include </home/runner/EulerBot/linux/spinlock.h>
 #include <net/checksum.h>
 #include </home/runner/EulerBot/linux/rcupdate.h>

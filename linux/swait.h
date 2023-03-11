@@ -6,7 +6,7 @@
 #include </home/runner/EulerBot/linux/stddef.h>
 #include </home/runner/EulerBot/linux/spinlock.h>
 #include </home/runner/EulerBot/linux/wait.h>
-#include <asm/current.h>
+#include </home/runner/EulerBot/asm/current.h>
 
 /*
  * Simple waitqueues are semantically very different to regular wait queues

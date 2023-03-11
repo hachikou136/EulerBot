@@ -5,7 +5,7 @@
 #include </home/runner/EulerBot/linux/types.h>
 #include </home/runner/EulerBot/linux/math.h>
 #include <vdso/math64.h>
-#include <asm/div64.h>
+#include </home/runner/EulerBot/asm/div64.h>
 
 #if BITS_PER_LONG == 64
 

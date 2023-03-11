@@ -19,8 +19,8 @@
 #include </home/runner/EulerBot/linux/if_ether.h>
 #include </home/runner/EulerBot/linux/etherdevice.h>
 #include </home/runner/EulerBot/linux/bitfield.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
+#include </home/runner/EulerBot/asm/unaligned.h>
 
 /*
  * DS bit usage

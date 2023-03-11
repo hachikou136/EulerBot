@@ -136,7 +136,7 @@
 #include </home/runner/EulerBot/linux/static_call_types.h>
 
 #ifdef CONFIG_HAVE_STATIC_CALL
-#include <asm/static_call.h>
+#include </home/runner/EulerBot/asm/static_call.h>
 
 /*
  * Either @site or @tramp can be NULL.

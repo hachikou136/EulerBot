@@ -19,7 +19,7 @@
 
 #include </home/runner/EulerBot/linux/thread_info.h>
 #include </home/runner/EulerBot/linux/atomic.h>
-#include <asm/seccomp.h>
+#include </home/runner/EulerBot/asm/seccomp.h>
 
 struct seccomp_filter;
 /**

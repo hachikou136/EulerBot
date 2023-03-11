@@ -61,8 +61,8 @@
 #include </home/runner/EulerBot/linux/stringify.h>
 #include </home/runner/EulerBot/linux/bottom_half.h>
 #include </home/runner/EulerBot/linux/lockdep.h>
-#include <asm/barrier.h>
-#include <asm/mmiowb.h>
+#include </home/runner/EulerBot/asm/barrier.h>
+#include </home/runner/EulerBot/asm/mmiowb.h>
 
 
 /*
@@ -91,7 +91,7 @@
  * Pull the arch_spin*() functions/declarations (UP-nondebug doesn't need them):
  */
 #ifdef CONFIG_SMP
-# include <asm/spinlock.h>
+# include </home/runner/EulerBot/asm/spinlock.h>
 #else
 # include </home/runner/EulerBot/linux/spinlock_up.h>
 #endif

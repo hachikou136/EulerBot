@@ -27,7 +27,7 @@
 #include </home/runner/EulerBot/linux/irq.h>
 #include </home/runner/EulerBot/linux/bits.h>
 
-#include <asm/msi.h>
+#include </home/runner/EulerBot/asm/msi.h>
 
 /* Dummy shadow structures if an architecture does not define them */
 #ifndef arch_msi_msg_addr_lo

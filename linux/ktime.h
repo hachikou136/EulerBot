@@ -23,7 +23,7 @@
 
 #include </home/runner/EulerBot/linux/time.h>
 #include </home/runner/EulerBot/linux/jiffies.h>
-#include <asm/bug.h>
+#include </home/runner/EulerBot/asm/bug.h>
 
 /* Nanosecond scalar representation for kernel time values */
 typedef s64	ktime_t;

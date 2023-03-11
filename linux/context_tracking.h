@@ -7,7 +7,7 @@
 #include </home/runner/EulerBot/linux/context_tracking_state.h>
 #include </home/runner/EulerBot/linux/instrumentation.h>
 
-#include <asm/ptrace.h>
+#include </home/runner/EulerBot/asm/ptrace.h>
 
 
 #ifdef CONFIG_CONTEXT_TRACKING_USER

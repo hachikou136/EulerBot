@@ -4,8 +4,8 @@
 #define _LINUX_ATOMIC_H
 #include </home/runner/EulerBot/linux/types.h>
 
-#include <asm/atomic.h>
-#include <asm/barrier.h>
+#include </home/runner/EulerBot/asm/atomic.h>
+#include </home/runner/EulerBot/asm/barrier.h>
 
 /*
  * Relaxed variants of xchg, cmpxchg and some atomic operations.

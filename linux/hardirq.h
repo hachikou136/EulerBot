@@ -8,7 +8,7 @@
 #include </home/runner/EulerBot/linux/ftrace_irq.h>
 #include </home/runner/EulerBot/linux/sched.h>
 #include </home/runner/EulerBot/linux/vtime.h>
-#include <asm/hardirq.h>
+#include </home/runner/EulerBot/asm/hardirq.h>
 
 extern void synchronize_irq(unsigned int irq);
 extern bool synchronize_hardirq(unsigned int irq);

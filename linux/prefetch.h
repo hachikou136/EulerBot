@@ -12,8 +12,8 @@
 #define _LINUX_PREFETCH_H
 
 #include </home/runner/EulerBot/linux/types.h>
-#include <asm/processor.h>
-#include <asm/cache.h>
+#include </home/runner/EulerBot/asm/processor.h>
+#include </home/runner/EulerBot/asm/cache.h>
 
 struct page;
 /*

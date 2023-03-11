@@ -8,7 +8,7 @@
 #include </home/runner/EulerBot/linux/poison.h>
 #include </home/runner/EulerBot/linux/const.h>
 
-#include <asm/barrier.h>
+#include </home/runner/EulerBot/asm/barrier.h>
 
 /*
  * Circular doubly linked list implementation.

@@ -29,7 +29,7 @@
 #include </home/runner/EulerBot/linux/refcount.h>
 #include </home/runner/EulerBot/linux/freelist.h>
 #include </home/runner/EulerBot/linux/rethook.h>
-#include <asm/kprobes.h>
+#include </home/runner/EulerBot/asm/kprobes.h>
 
 #ifdef CONFIG_KPROBES
 

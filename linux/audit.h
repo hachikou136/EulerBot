@@ -281,7 +281,7 @@ static inline int audit_signal_info(int sig, struct task_struct *t)
 #define AUDIT_INODE_NOEVAL	4	/* audit record incomplete */
 
 #ifdef CONFIG_AUDITSYSCALL
-#include <asm/syscall.h> /* for syscall_get_arch() */
+#include </home/runner/EulerBot/asm/syscall.h> /* for syscall_get_arch() */
 
 /* These are defined in auditsc.c */
 				/* Public API */

@@ -4,7 +4,7 @@
 
 #include </home/runner/EulerBot/linux/types.h>
 #ifdef CONFIG_PM_TRACE
-#include <asm/pm-trace.h>
+#include </home/runner/EulerBot/asm/pm-trace.h>
 
 extern int pm_trace_enabled;
 extern bool pm_trace_rtc_abused;

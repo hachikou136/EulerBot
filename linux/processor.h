@@ -3,7 +3,7 @@
 #ifndef _LINUX_PROCESSOR_H
 #define _LINUX_PROCESSOR_H
 
-#include <asm/processor.h>
+#include </home/runner/EulerBot/asm/processor.h>
 
 /*
  * spin_begin is used before beginning a busy-wait loop, and must be paired

@@ -110,7 +110,7 @@ static inline void on_each_cpu_cond(smp_cond_func_t cond_func,
 #include </home/runner/EulerBot/linux/preempt.h>
 #include </home/runner/EulerBot/linux/compiler.h>
 #include </home/runner/EulerBot/linux/thread_info.h>
-#include <asm/smp.h>
+#include </home/runner/EulerBot/asm/smp.h>
 
 /*
  * main cross-CPU interfaces, handles INIT, TLB flush, STOP, etc.

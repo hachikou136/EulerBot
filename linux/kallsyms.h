@@ -13,7 +13,7 @@
 #include </home/runner/EulerBot/linux/mm.h>
 #include </home/runner/EulerBot/linux/module.h>
 
-#include <asm/sections.h>
+#include </home/runner/EulerBot/asm/sections.h>
 
 #define KSYM_NAME_LEN 512
 #define KSYM_SYMBOL_LEN (sizeof("%s+%#lx/%#lx [%s %s]") + \

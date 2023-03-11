@@ -6,11 +6,11 @@
 #include </home/runner/EulerBot/linux/init.h>
 #include </home/runner/EulerBot/linux/list.h>
 #include </home/runner/EulerBot/linux/llist.h>
-#include <asm/page.h>		/* pgprot_t */
+#include </home/runner/EulerBot/asm/page.h>		/* pgprot_t */
 #include </home/runner/EulerBot/linux/rbtree.h>
 #include </home/runner/EulerBot/linux/overflow.h>
 
-#include <asm/vmalloc.h>
+#include </home/runner/EulerBot/asm/vmalloc.h>
 
 struct vm_area_struct;		/* vma defining user mapping in mm_types.h */
 struct notifier_block;		/* in notifier.h */

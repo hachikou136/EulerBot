@@ -5,7 +5,7 @@
 #ifndef _GAMEPORT_H
 #define _GAMEPORT_H
 
-#include <asm/io.h>
+#include </home/runner/EulerBot/asm/io.h>
 #include </home/runner/EulerBot/linux/types.h>
 #include </home/runner/EulerBot/linux/list.h>
 #include </home/runner/EulerBot/linux/mutex.h>

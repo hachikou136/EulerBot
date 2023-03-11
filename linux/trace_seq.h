@@ -4,7 +4,7 @@
 
 #include </home/runner/EulerBot/linux/seq_buf.h>
 
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 
 /*
  * Trace sequences are used to allow a function to call several other functions

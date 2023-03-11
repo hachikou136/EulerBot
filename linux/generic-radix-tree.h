@@ -36,7 +36,7 @@
  * __idx_to_offset.
  */
 
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 #include </home/runner/EulerBot/linux/bug.h>
 #include </home/runner/EulerBot/linux/log2.h>
 #include </home/runner/EulerBot/linux/math.h>

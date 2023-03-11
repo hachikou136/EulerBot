@@ -26,9 +26,9 @@
 #include </home/runner/EulerBot/linux/delay.h>
 #include </home/runner/EulerBot/linux/atomic.h>
 #include </home/runner/EulerBot/linux/prefetch.h>
-#include <asm/cache.h>
-#include <asm/byteorder.h>
-#include <asm/local.h>
+#include </home/runner/EulerBot/asm/cache.h>
+#include </home/runner/EulerBot/asm/byteorder.h>
+#include </home/runner/EulerBot/asm/local.h>
 
 #include </home/runner/EulerBot/linux/percpu.h>
 #include </home/runner/EulerBot/linux/rculist.h>

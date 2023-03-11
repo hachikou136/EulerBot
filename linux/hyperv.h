@@ -24,7 +24,7 @@
 #include </home/runner/EulerBot/linux/mod_devicetable.h>
 #include </home/runner/EulerBot/linux/interrupt.h>
 #include </home/runner/EulerBot/linux/reciprocal_div.h>
-#include <asm/hyperv-tlfs.h>
+#include </home/runner/EulerBot/asm/hyperv-tlfs.h>
 
 #define MAX_PAGE_BUFFER_COUNT				32
 #define MAX_MULTIPAGE_BUFFER_COUNT			32 /* 128K */

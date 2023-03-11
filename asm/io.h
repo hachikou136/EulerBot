@@ -7,7 +7,7 @@
 #ifndef __ASM_GENERIC_IO_H
 #define __ASM_GENERIC_IO_H
 
-#include <asm/page.h> /* I/O is all done through memory accesses */
+#include </home/runner/EulerBot/asm/page.h> /* I/O is all done through memory accesses */
 #include <linux/string.h> /* for memset() and memcpy() */
 #include <linux/types.h>
 #include <linux/instruction_pointer.h>
@@ -16,7 +16,7 @@
 #include <asm-generic/iomap.h>
 #endif
 
-#include <asm/mmiowb.h>
+#include </home/runner/EulerBot/asm/mmiowb.h>
 #include <asm-generic/pci_iomap.h>
 
 #ifndef __io_br

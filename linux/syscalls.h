@@ -80,7 +80,7 @@ enum landlock_rule_type;
 #include </home/runner/EulerBot/linux/list.h>
 #include </home/runner/EulerBot/linux/bug.h>
 #include </home/runner/EulerBot/linux/sem.h>
-#include <asm/siginfo.h>
+#include </home/runner/EulerBot/asm/siginfo.h>
 #include </home/runner/EulerBot/linux/unistd.h>
 #include </home/runner/EulerBot/linux/quota.h>
 #include </home/runner/EulerBot/linux/key.h>
@@ -95,7 +95,7 @@ enum landlock_rule_type;
  * for the sys_*() functions below will *not* be included if
  * CONFIG_ARCH_HAS_SYSCALL_WRAPPER is enabled.
  */
-#include <asm/syscall_wrapper.h>
+#include </home/runner/EulerBot/asm/syscall_wrapper.h>
 #endif /* CONFIG_ARCH_HAS_SYSCALL_WRAPPER */
 
 /*

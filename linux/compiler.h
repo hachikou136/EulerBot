@@ -244,6 +244,6 @@ static inline void *offset_to_ptr(const int *off)
  */
 #define prevent_tail_call_optimization()	mb()
 
-#include <asm/rwonce.h>
+#include </home/runner/EulerBot/asm/rwonce.h>
 
 #endif /* __LINUX_COMPILER_H */

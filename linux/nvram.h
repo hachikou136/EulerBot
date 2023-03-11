@@ -6,7 +6,7 @@
 #include <uapi/linux/nvram.h>
 
 #ifdef CONFIG_PPC
-#include <asm/machdep.h>
+#include </home/runner/EulerBot/asm/machdep.h>
 #endif
 
 /**

@@ -4,7 +4,7 @@
 
 #include <linux/futex.h>
 #include <linux/uaccess.h>
-#include <asm/errno.h>
+#include </home/runner/EulerBot/asm/errno.h>
 
 #ifndef futex_atomic_cmpxchg_inatomic
 #ifndef CONFIG_SMP

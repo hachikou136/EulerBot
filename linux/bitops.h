@@ -2,7 +2,7 @@
 #ifndef _LINUX_BITOPS_H
 #define _LINUX_BITOPS_H
 
-#include <asm/types.h>
+#include </home/runner/EulerBot/asm/types.h>
 #include </home/runner/EulerBot/linux/bits.h>
 #include </home/runner/EulerBot/linux/typecheck.h>
 
@@ -65,7 +65,7 @@ extern unsigned long __sw_hweight64(__u64 w);
  * Include this here because some architectures need generic_ffs/fls in
  * scope
  */
-#include <asm/bitops.h>
+#include </home/runner/EulerBot/asm/bitops.h>
 
 /* Check that the bitops prototypes are sane */
 #define __check_bitop_pr(name)						\

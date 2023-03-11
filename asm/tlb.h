@@ -14,8 +14,8 @@
 #include <linux/mmu_notifier.h>
 #include <linux/swap.h>
 #include <linux/hugetlb_inline.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
+#include </home/runner/EulerBot/asm/tlbflush.h>
+#include </home/runner/EulerBot/asm/cacheflush.h>
 
 /*
  * Blindly accessing user memory from NMI context can be dangerous

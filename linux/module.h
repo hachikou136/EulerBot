@@ -29,7 +29,7 @@
 #include </home/runner/EulerBot/linux/static_call_types.h>
 
 #include </home/runner/EulerBot/linux/percpu.h>
-#include <asm/module.h>
+#include </home/runner/EulerBot/asm/module.h>
 
 #define MODULE_NAME_LEN MAX_PARAM_PREFIX_LEN
 

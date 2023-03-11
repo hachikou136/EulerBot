@@ -18,7 +18,7 @@
 #include </home/runner/EulerBot/linux/atomic.h>
 #include </home/runner/EulerBot/linux/kprobes.h>
 #ifdef CONFIG_HAVE_ARCH_KGDB
-#include <asm/kgdb.h>
+#include </home/runner/EulerBot/asm/kgdb.h>
 #endif
 
 #ifdef CONFIG_KGDB

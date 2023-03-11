@@ -6,7 +6,7 @@
 #include </home/runner/EulerBot/linux/types.h>
 #include </home/runner/EulerBot/linux/bug.h>
 #include </home/runner/EulerBot/linux/mm.h>
-#include <asm/io.h>
+#include </home/runner/EulerBot/asm/io.h>
 
 struct scatterlist {
 	unsigned long	page_link;

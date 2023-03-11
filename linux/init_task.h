@@ -20,7 +20,7 @@
 #include </home/runner/EulerBot/linux/livepatch.h>
 #include </home/runner/EulerBot/linux/mm_types.h>
 
-#include <asm/thread_info.h>
+#include </home/runner/EulerBot/asm/thread_info.h>
 
 extern struct files_struct init_files;
 extern struct fs_struct init_fs;

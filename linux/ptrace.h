@@ -256,7 +256,7 @@ static inline void ptrace_release_task(struct task_struct *task)
 #endif
 
 /*
- * <asm/ptrace.h> should define the following things inside #ifdef __KERNEL__.
+ * </home/runner/EulerBot/asm/ptrace.h> should define the following things inside #ifdef __KERNEL__.
  *
  * These do-nothing inlines are used when the arch does not
  * implement single-step.  The kerneldoc comments are here

@@ -23,8 +23,8 @@
 #include <asm-generic/mmiowb_types.h>
 
 #ifndef arch_mmiowb_state
-#include <asm/percpu.h>
-#include <asm/smp.h>
+#include </home/runner/EulerBot/asm/percpu.h>
+#include </home/runner/EulerBot/asm/smp.h>
 
 DECLARE_PER_CPU(struct mmiowb_state, __mmiowb_state);
 #define __mmiowb_state()	raw_cpu_ptr(&__mmiowb_state)

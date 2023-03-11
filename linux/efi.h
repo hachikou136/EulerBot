@@ -26,7 +26,7 @@
 #include </home/runner/EulerBot/linux/uuid.h>
 #include </home/runner/EulerBot/linux/screen_info.h>
 
-#include <asm/page.h>
+#include </home/runner/EulerBot/asm/page.h>
 
 #define EFI_SUCCESS		0
 #define EFI_LOAD_ERROR		( 1 | (1UL << (BITS_PER_LONG-1)))

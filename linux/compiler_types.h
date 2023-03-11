@@ -136,7 +136,7 @@ static inline void __chk_io_ptr(const volatile void __iomem *ptr) { }
  * generated.
  */
 #ifdef CONFIG_HAVE_ARCH_COMPILER_H
-#include <asm/compiler.h>
+#include </home/runner/EulerBot/asm/compiler.h>
 #endif
 
 struct ftrace_branch_data {

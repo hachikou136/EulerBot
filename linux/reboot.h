@@ -181,6 +181,6 @@ void hw_protection_shutdown(const char *reason, int ms_until_forced);
  */
 
 extern void emergency_restart(void);
-#include <asm/emergency-restart.h>
+#include </home/runner/EulerBot/asm/emergency-restart.h>
 
 #endif /* _LINUX_REBOOT_H */

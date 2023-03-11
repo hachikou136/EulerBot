@@ -6,9 +6,9 @@
 #define LINUX_NMI_H
 
 #include </home/runner/EulerBot/linux/sched.h>
-#include <asm/irq.h>
+#include </home/runner/EulerBot/asm/irq.h>
 #if defined(CONFIG_HAVE_NMI_WATCHDOG)
-#include <asm/nmi.h>
+#include </home/runner/EulerBot/asm/nmi.h>
 #endif
 
 #ifdef CONFIG_LOCKUP_DETECTOR
@@ -211,7 +211,7 @@ int proc_watchdog_thresh(struct ctl_table *, int , void *, size_t *, loff_t *);
 int proc_watchdog_cpumask(struct ctl_table *, int, void *, size_t *, loff_t *);
 
 #ifdef CONFIG_HAVE_ACPI_APEI_NMI
-#include <asm/nmi.h>
+#include </home/runner/EulerBot/asm/nmi.h>
 #endif
 
 #ifdef CONFIG_NMI_CHECK_CPU

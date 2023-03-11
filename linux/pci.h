@@ -1964,7 +1964,7 @@ pci_alloc_irq_vectors(struct pci_dev *dev, unsigned int min_vecs,
 
 /* Include architecture-dependent settings and functions */
 
-#include <asm/pci.h>
+#include </home/runner/EulerBot/asm/pci.h>
 
 /*
  * pci_mmap_resource_range() maps a specific BAR, and vm->vm_pgoff

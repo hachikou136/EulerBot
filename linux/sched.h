@@ -9,7 +9,7 @@
 
 #include <uapi/linux/sched.h>
 
-#include <asm/current.h>
+#include </home/runner/EulerBot/asm/current.h>
 
 #include </home/runner/EulerBot/linux/pid.h>
 #include </home/runner/EulerBot/linux/sem.h>
@@ -36,7 +36,7 @@
 #include </home/runner/EulerBot/linux/seqlock.h>
 #include </home/runner/EulerBot/linux/kcsan.h>
 #include </home/runner/EulerBot/linux/rv.h>
-#include <asm/kmap_size.h>
+#include </home/runner/EulerBot/asm/kmap_size.h>
 
 /* task_struct member predeclarations (sorted alphabetically): */
 struct audit_context;

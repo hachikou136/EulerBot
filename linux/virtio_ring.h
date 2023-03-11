@@ -2,7 +2,7 @@
 #ifndef _LINUX_VIRTIO_RING_H
 #define _LINUX_VIRTIO_RING_H
 
-#include <asm/barrier.h>
+#include </home/runner/EulerBot/asm/barrier.h>
 #include </home/runner/EulerBot/linux/irqreturn.h>
 #include <uapi/linux/virtio_ring.h>
 

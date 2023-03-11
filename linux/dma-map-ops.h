@@ -84,7 +84,7 @@ struct dma_map_ops {
 };
 
 #ifdef CONFIG_DMA_OPS
-#include <asm/dma-mapping.h>
+#include </home/runner/EulerBot/asm/dma-mapping.h>
 
 static inline const struct dma_map_ops *get_dma_ops(struct device *dev)
 {
