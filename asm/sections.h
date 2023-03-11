@@ -4,8 +4,8 @@
 
 /* References to section boundaries */
 
-#include <linux/compiler.h>
-#include <linux/types.h>
+#include </home/runner/EulerBot/linux/compiler.h>
+#include </home/runner/EulerBot/linux/types.h>
 
 /*
  * Usage guidelines:

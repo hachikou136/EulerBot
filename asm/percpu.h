@@ -2,9 +2,9 @@
 #ifndef _ASM_GENERIC_PERCPU_H_
 #define _ASM_GENERIC_PERCPU_H_
 
-#include <linux/compiler.h>
-#include <linux/threads.h>
-#include <linux/percpu-defs.h>
+#include </home/runner/EulerBot/linux/compiler.h>
+#include </home/runner/EulerBot/linux/threads.h>
+#include </home/runner/EulerBot/linux/percpu-defs.h>
 
 #ifdef CONFIG_SMP
 

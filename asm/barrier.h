@@ -13,8 +13,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <linux/compiler.h>
-#include <linux/kcsan-checks.h>
+#include </home/runner/EulerBot/linux/compiler.h>
+#include </home/runner/EulerBot/linux/kcsan-checks.h>
 #include </home/runner/EulerBot/asm/rwonce.h>
 
 #ifndef nop

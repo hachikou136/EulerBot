@@ -9,9 +9,9 @@
 #ifndef _ASM_GENERIC_HYPERV_TLFS_H
 #define _ASM_GENERIC_HYPERV_TLFS_H
 
-#include <linux/types.h>
-#include <linux/bits.h>
-#include <linux/time64.h>
+#include </home/runner/EulerBot/linux/types.h>
+#include </home/runner/EulerBot/linux/bits.h>
+#include </home/runner/EulerBot/linux/time64.h>
 
 /*
  * While not explicitly listed in the TLFS, Hyper-V always runs with a page size

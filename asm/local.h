@@ -2,8 +2,8 @@
 #ifndef _ASM_GENERIC_LOCAL_H
 #define _ASM_GENERIC_LOCAL_H
 
-#include <linux/percpu.h>
-#include <linux/atomic.h>
+#include </home/runner/EulerBot/linux/percpu.h>
+#include </home/runner/EulerBot/linux/atomic.h>
 #include </home/runner/EulerBot/asm/types.h>
 
 /*

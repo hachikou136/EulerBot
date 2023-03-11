@@ -8,7 +8,7 @@
 #ifndef _ASM_GENERIC_IRQ_REGS_H
 #define _ASM_GENERIC_IRQ_REGS_H
 
-#include <linux/percpu.h>
+#include </home/runner/EulerBot/linux/percpu.h>
 
 /*
  * Per-cpu current frame pointer - the location of the last exception frame on

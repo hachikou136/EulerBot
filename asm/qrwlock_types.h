@@ -2,7 +2,7 @@
 #ifndef __ASM_GENERIC_QRWLOCK_TYPES_H
 #define __ASM_GENERIC_QRWLOCK_TYPES_H
 
-#include <linux/types.h>
+#include </home/runner/EulerBot/linux/types.h>
 #include </home/runner/EulerBot/asm/byteorder.h>
 #include </home/runner/EulerBot/asm/spinlock_types.h>
 

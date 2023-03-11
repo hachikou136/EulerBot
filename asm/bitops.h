@@ -11,8 +11,8 @@
  * C language equivalents written by Theodore Ts'o, 9/26/92
  */
 
-#include <linux/irqflags.h>
-#include <linux/compiler.h>
+#include </home/runner/EulerBot/linux/irqflags.h>
+#include </home/runner/EulerBot/linux/compiler.h>
 #include </home/runner/EulerBot/asm/barrier.h>
 
 #include <asm-generic/bitops/__ffs.h>
@@ -22,7 +22,7 @@
 #include <asm-generic/bitops/fls64.h>
 
 #ifndef _LINUX_BITOPS_H
-#error only <linux/bitops.h> can be included directly
+#error only </home/runner/EulerBot/linux/bitops.h> can be included directly
 #endif
 
 #include <asm-generic/bitops/sched.h>

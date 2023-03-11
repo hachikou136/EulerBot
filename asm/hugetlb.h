@@ -2,8 +2,8 @@
 #ifndef _ASM_GENERIC_HUGETLB_H
 #define _ASM_GENERIC_HUGETLB_H
 
-#include <linux/swap.h>
-#include <linux/swapops.h>
+#include </home/runner/EulerBot/linux/swap.h>
+#include </home/runner/EulerBot/linux/swapops.h>
 
 static inline pte_t mk_huge_pte(struct page *page, pgprot_t pgprot)
 {

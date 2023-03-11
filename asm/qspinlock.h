@@ -40,7 +40,7 @@
 #define __ASM_GENERIC_QSPINLOCK_H
 
 #include <asm-generic/qspinlock_types.h>
-#include <linux/atomic.h>
+#include </home/runner/EulerBot/linux/atomic.h>
 
 #ifndef queued_spin_is_locked
 /**

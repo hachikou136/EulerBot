@@ -2,7 +2,7 @@
 #ifndef __GENERIC_IO_H
 #define __GENERIC_IO_H
 
-#include <linux/linkage.h>
+#include </home/runner/EulerBot/linux/linkage.h>
 #include </home/runner/EulerBot/asm/byteorder.h>
 
 /*

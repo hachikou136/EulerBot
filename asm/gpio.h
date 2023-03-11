@@ -2,14 +2,14 @@
 #ifndef _ASM_GENERIC_GPIO_H
 #define _ASM_GENERIC_GPIO_H
 
-#include <linux/types.h>
-#include <linux/errno.h>
+#include </home/runner/EulerBot/linux/types.h>
+#include </home/runner/EulerBot/linux/errno.h>
 
 #ifdef CONFIG_GPIOLIB
 
-#include <linux/compiler.h>
-#include <linux/gpio/driver.h>
-#include <linux/gpio/consumer.h>
+#include </home/runner/EulerBot/linux/compiler.h>
+#include </home/runner/EulerBot/linux/gpio/driver.h>
+#include </home/runner/EulerBot/linux/gpio/consumer.h>
 
 /*
  * Platforms may implement their GPIO interface with library code,
@@ -104,7 +104,7 @@ static inline void gpio_unexport(unsigned gpio)
 
 #else	/* !CONFIG_GPIOLIB */
 
-#include <linux/kernel.h>
+#include </home/runner/EulerBot/linux/kernel.h>
 
 /* platforms that don't directly support access to GPIOs through I2C, SPI,
  * or other blocking infrastructure can use these wrappers.

@@ -11,9 +11,9 @@
 #ifndef _ASM_GENERIC__TLB_H
 #define _ASM_GENERIC__TLB_H
 
-#include <linux/mmu_notifier.h>
-#include <linux/swap.h>
-#include <linux/hugetlb_inline.h>
+#include </home/runner/EulerBot/linux/mmu_notifier.h>
+#include </home/runner/EulerBot/linux/swap.h>
+#include </home/runner/EulerBot/linux/hugetlb_inline.h>
 #include </home/runner/EulerBot/asm/tlbflush.h>
 #include </home/runner/EulerBot/asm/cacheflush.h>
 

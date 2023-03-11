@@ -11,8 +11,8 @@
 #error "Cannot use generic cmpxchg on SMP"
 #endif
 
-#include <linux/types.h>
-#include <linux/irqflags.h>
+#include </home/runner/EulerBot/linux/types.h>
+#include </home/runner/EulerBot/linux/irqflags.h>
 
 /*
  * This function doesn't exist, so you'll get a linker error if

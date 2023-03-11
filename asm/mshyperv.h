@@ -18,11 +18,11 @@
 #ifndef _ASM_GENERIC_MSHYPERV_H
 #define _ASM_GENERIC_MSHYPERV_H
 
-#include <linux/types.h>
-#include <linux/atomic.h>
-#include <linux/bitops.h>
-#include <linux/cpumask.h>
-#include <linux/nmi.h>
+#include </home/runner/EulerBot/linux/types.h>
+#include </home/runner/EulerBot/linux/atomic.h>
+#include </home/runner/EulerBot/linux/bitops.h>
+#include </home/runner/EulerBot/linux/cpumask.h>
+#include </home/runner/EulerBot/linux/nmi.h>
 #include </home/runner/EulerBot/asm/ptrace.h>
 #include </home/runner/EulerBot/asm/hyperv-tlfs.h>
 

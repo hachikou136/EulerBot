@@ -2,8 +2,8 @@
 #ifndef _ASM_GENERIC_FUTEX_H
 #define _ASM_GENERIC_FUTEX_H
 
-#include <linux/futex.h>
-#include <linux/uaccess.h>
+#include </home/runner/EulerBot/linux/futex.h>
+#include </home/runner/EulerBot/linux/uaccess.h>
 #include </home/runner/EulerBot/asm/errno.h>
 
 #ifndef futex_atomic_cmpxchg_inatomic
